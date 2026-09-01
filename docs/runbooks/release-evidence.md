@@ -39,3 +39,7 @@ Rollback uses the immutable Vercel deployment and Render deploy/provider URL rec
 ## Beta limitations
 
 Namespace/source administration, conflict review, audited import approval, broader historical namespace coverage, package publication, and mature security/load/source-stewardship evidence remain stable gates.
+
+## UI and discoverability addendum
+
+Commit `7ef19244935b4c6c3ab10b6213822dd5172746c1`, CI `33527986949`, and deployment `dpl_CLH7w8FDL1aLGVuhJUzxSjvRWh2d` replaced the native namespace select with an accessible three-option Radix listbox and aligned typography to Outfit, Geist Mono and Newsreader. Browser inspection found no prohibited native control or overflow. The canonical page now exposes a product favicon, manifest, canonical/Open Graph/Twitter metadata, and a verified 1200x630 PNG.

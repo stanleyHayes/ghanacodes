@@ -44,9 +44,9 @@ GhanaCodes resolves identifiers only within an explicit namespace, dataset versi
 | CODE-1.2 | Date-aware resolver/crosswalk | Done | Codex | CODE-1.1 | Go tests cover exact, historical, ambiguity and crosswalk behavior |
 | CODE-2.1 | REST/GraphQL/bulk interfaces | Done | Codex | CODE-1.2 | Handlers and committed contracts |
 | CODE-2.2 | TypeScript client | Done locally | Codex | CODE-2.1 | Source client complete; package publication pending |
-| CODE-3.1 | Public website and sandbox | Done locally | Codex | CODE-1.2 | Typecheck, tests and production build pass |
+| CODE-3.1 | Public website and sandbox | Done | Codex | CODE-1.2 | Production UI uses a custom Radix namespace picker, portfolio fonts, favicon and full canonical/social metadata; browser evidence recorded |
 | CODE-3.2 | Admin conflict/import workflow | Pending | Unassigned | CODE-0.1 | Required before stable |
-| CODE-4.1 | Web production release | Done | Codex | CODE-3.1 | Vercel `dpl_8m9yeNpWPt6hFf2SDV7AZZEqf31u`; canonical host and routes HTTP 200 |
+| CODE-4.1 | Web production release | Done | Codex | CODE-3.1 | Current Vercel `dpl_CLH7w8FDL1aLGVuhJUzxSjvRWh2d`; canonical host UI/SEO/TLS verified |
 | CODE-4.2 | API production release | Done | Codex | CODE-2.1 | Render `srv-dabdm0ss728c73adbong`, deploy `dep-dabdm1ks728c73adbqeg`; custom domain verified |
 | CODE-4.3 | Production smoke/rollback | Done | Codex | CODE-4.1, CODE-4.2 | Exact, historical, crosswalk, bulk, GraphQL, health, TLS and web smoke passed |
 
