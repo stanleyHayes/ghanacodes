@@ -1,0 +1,1 @@
+import type{MetadataRoute}from"next";export default function manifest():MetadataRoute.Manifest{return{name:"GhanaCodes",short_name:"Codes",description:"Exact Ghana identifier resolution",start_url:"/",display:"standalone",background_color:"#f1f4ef",theme_color:"#164e63",icons:[{src:"/icon.svg",sizes:"any",type:"image/svg+xml"}]}}
