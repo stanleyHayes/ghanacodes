@@ -1,7 +1,7 @@
 # GhanaCodes execution ledger
 
 Last updated: 2026-09-01
-Status: Beta implementation complete locally; production release in progress
+Status: Public beta live; stable gates remain
 Canonical hosts: `codes.digitalghana.dev`, `api-codes.digitalghana.dev`
 
 ## Product definition
@@ -46,9 +46,9 @@ GhanaCodes resolves identifiers only within an explicit namespace, dataset versi
 | CODE-2.2 | TypeScript client | Done locally | Codex | CODE-2.1 | Source client complete; package publication pending |
 | CODE-3.1 | Public website and sandbox | Done locally | Codex | CODE-1.2 | Typecheck, tests and production build pass |
 | CODE-3.2 | Admin conflict/import workflow | Pending | Unassigned | CODE-0.1 | Required before stable |
-| CODE-4.1 | Web production release | In progress | Codex | CODE-3.1 | Vercel deployment next |
-| CODE-4.2 | API production release | In progress | Codex | CODE-2.1 | Render deployment next |
-| CODE-4.3 | Production smoke/rollback | Blocked | Codex | CODE-4.1, CODE-4.2 | Verify exact, ambiguous-safe, crosswalk, bulk and TLS after attach |
+| CODE-4.1 | Web production release | Done | Codex | CODE-3.1 | Vercel `dpl_8m9yeNpWPt6hFf2SDV7AZZEqf31u`; canonical host and routes HTTP 200 |
+| CODE-4.2 | API production release | Done | Codex | CODE-2.1 | Render `srv-dabdm0ss728c73adbong`, deploy `dep-dabdm1ks728c73adbqeg`; custom domain verified |
+| CODE-4.3 | Production smoke/rollback | Done | Codex | CODE-4.1, CODE-4.2 | Exact, historical, crosswalk, bulk, GraphQL, health, TLS and web smoke passed |
 
 ## Release rule
 
