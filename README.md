@@ -1,14 +1,15 @@
 # GhanaCodes
 
-`GhanaCodes` is an independent Digital Ghana public-infrastructure product. Its canonical public home is `https://codes.digitalghana.dev` after production evidence supports a lifecycle transition.
+`GhanaCodes` is an independent Digital Ghana interoperability resolver for versioned, source-linked Ghanaian identifiers.
 
-## Before implementation
+- Web and resolver: <https://codes.digitalghana.dev>
+- REST, GraphQL and bulk API: <https://api-codes.digitalghana.dev>
+- Initial dataset: GSS 2021 PHC regions and all 261 district codes
 
-1. Record the problem, users, non-goals, source rights and acceptance evidence in `agent_plan.md`.
-2. Replace the placeholder source-register record only after authority and licence review.
-3. Add domain contracts before transport or UI code.
-4. Keep deployments fail-closed until required provider values exist.
+## Safety model
+
+Every request names a namespace and may name an effective date. Crosswalks use canonical entity IDs and return all candidates when ambiguous. GhanaCodes never silently fuzzy-matches a district or institution name.
 
 ## Verification
 
-Run `ruby scripts/validate.rb`. Product-specific checks are added to the same quality workflow as implementation lands.
+Run `ruby scripts/validate.rb`, `go test ./...`, `go vet ./...`, `pnpm typecheck`, `pnpm test`, and `pnpm build`.

@@ -1,0 +1,8 @@
+openapi: 3.1.0
+info: {title: GhanaCodes API, version: 0.1.0}
+servers: [{url: "https://api-codes.digitalghana.dev"}]
+paths:
+  /v1/namespaces: {get: {responses: {"200": {description: Namespace registry}}}}
+  /v1/resolve/{namespace}/{code}: {get: {responses: {"200": {description: Exact, date-aware resolution}}}}
+  /v1/crosswalk: {get: {responses: {"200": {description: Provenance-preserving crosswalk candidates}}}}
+  /v1/bulk-resolve: {post: {responses: {"200": {description: Deterministic ordered bulk results}}}}

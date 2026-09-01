@@ -1,0 +1,3 @@
+type Code { namespace: String!, code: String!, name: String!, entityId: ID!, entityType: String!, validFrom: String!, validTo: String, status: String!, sourceId: String! }
+type Resolution { status: String!, candidates: [Code!]!, version: String! }
+type Query { resolveCode(namespace: String!, code: String!, at: String): Resolution!, crosswalk(fromNamespace: String!, code: String!, toNamespace: String!, at: String): Resolution! }

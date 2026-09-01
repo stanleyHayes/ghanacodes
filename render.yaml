@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ghanacodes-api
+    runtime: go
+    plan: free
+    buildCommand: go build -trimpath -ldflags="-s -w" -o bin/ghanacodes ./cmd/api
+    startCommand: ./bin/ghanacodes
+    healthCheckPath: /health
+    autoDeployTrigger: commit

@@ -1,16 +1,4 @@
-{
-  "$schema": "./source-register.schema.json",
-  "product": "ghanacodes",
-  "sources": [
-    {
-      "id": "definition-required",
-      "authority": null,
-      "title": "Replace after source review",
-      "url": null,
-      "licence": "unknown",
-      "publicationDecision": "blocked",
-      "reviewedAt": null,
-      "notes": "Unknown licence blocks canonical publication."
-    }
-  ]
-}
+{"$schema":"./source-register.schema.json","product":"ghanacodes","sources":[
+{"id":"gss-2021-phc-field-manual","authority":"Ghana Statistical Service","title":"2021 Population and Housing Census Field Officer's Manual","url":"https://census2020.statsghana.gov.gh/gssmain/fileUpload/pressrelease/2021%20PHC_Field%20Officers%20Manual_05.05.2021.pdf","licence":"Copyright Ghana Statistical Service; no open-data licence stated in the artifact","publicationDecision":"derived-code-facts-with-attribution","reviewedAt":"2026-09-01","checksumSha256":"06bb5ffc8cfeb59df612a10432209de82ddd8988d4e2fbb8c75e359dc2968560","notes":"Appendix 2 provides all 261 district codes; Table 10.1 provides 16 region codes. The PDF is linked, not redistributed. Dataset is explicitly versioned 2021 and not represented as perpetually current."},
+{"id":"mlgrd-mmda-directory","authority":"Ghana Ministry of Local Government, Chieftaincy and Religious Affairs","title":"MMDCEs and MMDA directory","url":"https://www.mlgrd.gov.gh/index.php/the-ministry/governance/mmdces-directory","licence":"official web directory; no open-data licence stated","publicationDecision":"review-reference-only","reviewedAt":"2026-09-01","notes":"Current-name review aid only; not silently scraped into the canonical dataset."}
+]}
