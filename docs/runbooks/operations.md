@@ -1,8 +1,8 @@
 # Operations baseline
 
-No production service exists yet.
+Web and API are live in public beta on `codes.digitalghana.dev` and `api-codes.digitalghana.dev`; deployment, smoke, TLS and rollback evidence is recorded in [`release-evidence.md`](release-evidence.md).
 
-Before beta, define and verify:
+Open before stable — define and verify:
 
 - health, readiness and dependency checks;
 - structured logs with request/correlation identifiers and secret redaction;
@@ -12,5 +12,3 @@ Before beta, define and verify:
 - least-privilege provider credentials and rotation;
 - rate limits, abuse controls and audit trails for privileged publication;
 - rollback and incident communication steps.
-
-Deployment configuration is a skeleton until immutable build, smoke, TLS, rollback and provider evidence are recorded in `release-evidence.md`.
